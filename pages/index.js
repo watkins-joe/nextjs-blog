@@ -27,6 +27,20 @@ export default function Home({ allPostsData }) {
           Iowa and a Fullstack Software Developer for the apps I'm making on the
           side.
         </p>
+        <ul className={utilStyles.list}>
+          <li>
+            Send me a message on{" "}
+            <a href="https://linkedin.com/in/watkins-joe/" target="_blank">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            View some code I've written on{" "}
+            <a href="https://github.com/watkins-joe/" target="_blank">
+              GitHub
+            </a>
+          </li>
+        </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
