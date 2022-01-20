@@ -1,4 +1,5 @@
 import { getAllPostIds, getPostData } from "../../lib/posts";
+import Head from "next/head";
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
@@ -21,6 +22,9 @@ import Layout from "../../components/layout";
 export default function Post({ postData }) {
   return (
     <Layout>
+      <Head>
+        <title>{postData.title}</title>
+      </Head>
       {postData.title}
       <br />
       {postData.id}
