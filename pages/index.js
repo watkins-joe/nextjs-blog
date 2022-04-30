@@ -23,8 +23,8 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hi, I'm Joe. I'm a Frontend Developer for a local company in Iowa and
-          a Fullstack Software Developer for the apps I'm making on the side.
+          Hi, I'm Joe. I'm a Software Engineer at The Hartford and a Full-Stack
+          Software Engineer for the apps I'm making on the side.
         </p>
         <ul className={utilStyles.list}>
           <li>
